@@ -29,5 +29,5 @@ services:
       - server.port=3000
       - spring.datasource.url=jdbc:postgresql://primes-database:5432/primes
       - spring.datasource.username=postgres
-      - spring.datasource.password=password
+      - spring.datasource.password=harshi23A
       - spring.datasource.restart=no
