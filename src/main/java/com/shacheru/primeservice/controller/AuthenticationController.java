@@ -20,6 +20,7 @@ public class AuthenticationController {
 
     private final TokenService tokenService;
 
+
     public AuthenticationController(IAuthenticationService authenticationService, AuthenticationManager authenticationManager, TokenService tokenService) {
         this.authenticationService = authenticationService;
         this.authenticationManager = authenticationManager;
