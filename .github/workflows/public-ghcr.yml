@@ -23,9 +23,9 @@ jobs:
 
       - name: Build and push the image
         run: |
-          docker login --username shalinipsg --password ${{secrets.ACCESS_TOKEN}} ghcr.io
-          docker build -t ghcr.io/shalinipsg/prime-service:latest --file Dockerfile .  
-          docker push ghcr.io/shalinipsg/prime-service:latest 
+          docker login --username kundhana2123 --password ${{secrets.ACCESS_TOKEN_KUNDHANS}} ghcr.io
+          docker build -t ghcr.io/kundhana2123/prime-service:latest --file Dockerfile .  
+          docker push ghcr.io/kundhana2123/prime-service:latest 
 
 
 #          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
